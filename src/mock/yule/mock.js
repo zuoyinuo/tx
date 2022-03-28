@@ -1,0 +1,35 @@
+let Mock = require("mockjs")
+Mock.mock("/api/yule","get",{
+    "Video":[
+        {
+            imgSrc:"http://puui.qpic.cn/vpic_cover/g325427pof0/g325427pof0_hz.jpg/1280",
+            icon:"https://inews.gtimg.com/newsapp_ls/0/12766139526_200200/0",
+            txt:"资谈"
+        },
+        {
+            imgSrc:"http://puui.qpic.cn/vpic_cover/u3318th2l92/u3318th2l92_hz.jpg/1280",
+            icon:"http://inews.gtimg.com/newsapp_ls/0/12956444827/0",
+            txt:"德云吃瓜军*"
+        },
+        {
+            imgSrc:"http://puui.qpic.cn/vpic_cover/p33056cocmx/p33056cocmx_hz.jpg/1280",
+            icon:"http://inews.gtimg.com/newsapp_ls/0/12450556273_200200/0",
+            txt:"江湖冷小姐"
+        },
+        {
+            imgSrc:"http://puui.qpic.cn/vpic_cover/k3263bca73c/k3263bca73c_vt.jpg/720",
+            icon:"http://inews.gtimg.com/newsapp_ls/0/932336979_200200/0",
+            txt:"资谈"
+        },
+        {
+            imgSrc:"http://puui.qpic.cn/vpic_cover/c33059x2mo9/c33059x2mo9_hz.jpg/1280",
+            icon:"http://inews.gtimg.com/newsapp_ls/0/12796108196_200200/0",
+            txt:"大毛娱乐盘点"
+        },
+        {
+            imgSrc:"http://puui.qpic.cn/vpic_cover/y3267tbjwtt/y3267tbjwtt_hz.jpg/1280",
+            icon:"http://inews.gtimg.com/newsapp_ls/0/11674878598_200200/0",
+            txt:"show时尚"
+        }
+    ]
+})
